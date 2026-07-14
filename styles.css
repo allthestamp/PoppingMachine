@@ -928,6 +928,18 @@ h3 {
   font-size: 15px;
 }
 
+.phone-numbers {
+  display: grid;
+  gap: 3px;
+}
+
+.contact-action-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .contact-row .action {
   display: inline-flex;
   align-items: center;
@@ -1505,13 +1517,18 @@ h3 {
   }
 
   .contact-row p,
-  .contact-row .action {
+  .contact-row .action,
+  .contact-action-group {
     grid-column: 2;
+  }
+
+  .contact-action-group {
+    justify-content: flex-start;
+    margin-top: 8px;
   }
 
   .contact-row .action {
     width: max-content;
-    margin-top: 8px;
   }
 
   .to-top {
