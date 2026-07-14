@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>사용방법 영상 | 올더스탬 팝핑머신</title>
+    <meta name="description" content="올더스탬 팝핑머신 레드·프로 모델의 사용방법 영상과 제작 순서입니다." />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="올더스탬 홈"><img src="assets/로고.png" alt="올더스탬" /></a>
+      <nav class="nav-links" aria-label="주요 메뉴">
+        <a class="active" href="guide.html">사용방법</a><a href="models.html">모델</a><a href="service.html">A/S</a><a href="contact.html">상담</a>
+      </nav>
+      <a class="header-contact" href="tel:01084092802"><i data-lucide="phone"></i><span>010-8409-2802</span></a>
+    </header>
+
+    <main id="top">
+      <section class="page-head">
+        <div class="shell page-head-grid">
+          <span class="page-no">GUIDE / 01</span>
+          <h1>사용방법</h1>
+          <p class="guide-intro"><span>팝핑머신은 열이 아닌 빛으로 제작하는 감광 방식입니다.</span> <span>사용 중인 모델을 선택해 영상과 적층 순서를 확인하세요.</span></p>
+        </div>
+      </section>
+
+      <section class="content-band">
+        <div class="shell">
+          <div class="guide-layout">
+            <div class="guide-media-wrap">
+              <div class="video-stage is-landscape" data-video-stage>
+                <video data-guide-video controls playsinline preload="metadata" aria-label="레드 모델 사용방법 영상">
+                  <source src="assets/팝핑머신 레드.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="media-caption"><span data-video-label>RED MODEL / VIDEO GUIDE</span><span data-video-ratio>가로 영상</span></div>
+            </div>
+
+            <div class="guide-copy">
+              <div class="model-toggle" role="tablist" aria-label="모델 선택">
+                <button class="model-tab active" type="button" role="tab" aria-selected="true" data-model="red">레드 모델</button>
+                <button class="model-tab" type="button" role="tab" aria-selected="false" data-model="pro">프로 모델</button>
+              </div>
+              <h2 data-model-title>레드 모델 사용 순서</h2>
+              <ol class="step-list" data-model-steps>
+                <li>프린터로 도안을 팝핑지에 선명하게 인쇄합니다.</li>
+                <li>고무패드 위에 필름을 놓고, 도안(팝핑지)을 가장 위에 올립니다.</li>
+                <li>세 재료의 위치를 맞춘 뒤 기계의 작업 공간에 넣습니다.</li>
+                <li>감광이 끝나면 고무패드를 꺼내 도안이 고르게 표현됐는지 확인합니다.</li>
+              </ol>
+              <p class="model-note" data-model-note>레드 모델은 아래에서부터 고무패드 → 필름 → 도안(팝핑지) 순서입니다.</p>
+            </div>
+          </div>
+
+          <div class="inline-checks" aria-label="사용 전 확인사항">
+            <article class="inline-check"><span>CHECK 01</span><h3>감광 방식</h3><p>열로 각인하지 않고 빛을 이용해 도안을 감광합니다.</p></article>
+            <article class="inline-check"><span>CHECK 02</span><h3>예열 불필요</h3><p>전원을 연결한 뒤 별도 예열 없이 사용할 수 있습니다.</p></article>
+            <article class="inline-check"><span>CHECK 03</span><h3>앞·뒤 구분 없음</h3><p>필름과 팝핑지는 앞면과 뒷면을 구분하지 않습니다.</p></article>
+            <article class="inline-check"><span>CHECK 04</span><h3>인체에 안전</h3><p>제작 과정에서 유해 물질이 발생하지 않아 안전하게 사용할 수 있습니다.</p></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-inner"><div><strong>올더스탬 팝핑머신 사용자 안내</strong><p>사용방법 영상 · 모델별 권장 순서</p></div><a href="index.html">안내 홈으로 ↑</a></div></footer>
+
+  </body>
+</html>
