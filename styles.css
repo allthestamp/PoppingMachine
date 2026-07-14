@@ -1263,6 +1263,7 @@ h3 {
   .intro-note {
     grid-template-columns: 1fr;
     gap: 4px;
+    margin-top: 0;
   }
 
   .product-stage {
